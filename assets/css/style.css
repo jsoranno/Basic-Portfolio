@@ -24,6 +24,8 @@ h2 {
 
 h3 {
 	color: #77777;
+	text-align: right;
+	text-orientation: 
 }
 
 p{
@@ -31,7 +33,17 @@ p{
 	color: #77777;
 	background-color: #ffffff;
 	border-color: #cccccc;
-	width: 650px;
+	width: 60%;
+}
+
+.Bio{
+	background-color: #ffffff;
+	border: 3px solid #cccccc;
+	text-align: left;
+	float: left;
+	padding: 10px;
+	margin-left: 15%;
+	margin-right: 40%;
 }
 
 #Profile {
@@ -40,9 +52,38 @@ p{
 	height:128px;
 }
 
+/* Better to create a class instead of different ids?*/
+#LIicon {
+	width:40px;
+	height:40px;
+	display: inline;
+	float: center;
+}
+
+#SOicon {
+	width:40px;
+	height:40px;
+	display: inline;
+	float:right;
+}
+
+#GHicon {
+	width:40px;
+	height:40px;
+	display: inline;
+	float: left;
+}
+
 .sidebar {
-	width: 270px;
-	color: #4aaaa5; 
+	background-color: #ffffff;
+	border: 3px solid #cccccc;
+	text-align: left;
+	float: right;
+	padding: 10px;
+}
+
+.pagelinks{
+/*come back to this*/
 }
 
 /* sticky footer */
@@ -52,6 +93,7 @@ p{
 html, body {
 	height: 100%;
 }
+/*
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
@@ -59,7 +101,9 @@ html, body {
 	margin: 0 auto -4em;
 
 }
+
 .footer, .push {
 	height: 4em;
 	background-color: #666666;
-}
+} 
+*/
