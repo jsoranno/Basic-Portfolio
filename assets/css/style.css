@@ -5,13 +5,17 @@ width: 960px;
 }
 
 h1 {
-margin-left: 100px;
-margin-right: 550px;
+margin-left: 15%;
+margin-right: 50%;
 font-family: "Georgia", Times, Times New Roman, serif;
 color: #ffffff;
 background-color: #4aaaa5;
 border-color: #cccccc;
 text-align: center;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
 }
 
 h2 {
