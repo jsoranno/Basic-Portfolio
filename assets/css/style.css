@@ -1,17 +1,22 @@
-/* next, add margins for the borders of each section*/
+/* next, add margins for the borders of each section, alignment*/
 body {
 font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+width: 960px;
 }
 
-h1{
+h1 {
 font-family: "Georgia", Times, Times New Roman, serif;
-color: #4aaaa5;
-background-color: #ffffff;
+color: #ffffff;
+background-color: #4aaaa5;
 border-color: #cccccc;
 }
 
 h2 {
+	color: #4aaaa5; 
+}
 
+h3 {
+color: #77777;
 }
 
 p{
@@ -19,8 +24,13 @@ font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 color: #77777;
 background-color: #ffffff;
 border-color: #cccccc;
+width: 650px;
 }
 
+.sidebar {
+	width: 270px;
+	color: #4aaaa5; 
+}
 
 /* sticky footer */
 * {
@@ -34,6 +44,7 @@ min-height: 100%;
 height: auto !important;
 height: 100%;
 margin: 0 auto -4em;
+
 }
 .footer, .push {
 height: 4em;
