@@ -1,7 +1,8 @@
 /* next, add margins for the borders of each section, alignment*/
 body {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	width: 960px;
+	margin-left: 0%;
+	padding: 0px
 }
 
 h1 {
