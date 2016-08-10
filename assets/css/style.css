@@ -112,6 +112,11 @@ img:hover{
 	background-color: #FF19D7;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 p{
 	display: inline;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -205,12 +210,14 @@ html, body {
 }
 
 .gallery {
-	/*add parameters for images and banners from icon sidebar*/
-	width:100px;
-	height:100px;
-	display: inline;
-	float:left;
-	padding: 20px;
+	/*how to make images float next to, not in vertical line and banners from icon sidebar*/
+    width: 120px;
+    height: 120px;
+    height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    display: inline-block;
 }
 
 .wrapper {
