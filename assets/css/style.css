@@ -116,7 +116,7 @@ p{
 	float: left;
 	padding: 20px;
 	margin-left: 10%;
-	width: 650px; /* changed from 270 (wrong section width, may need to adjust picture sizes to float) */
+	width: 350px; /* changed from 270 (wrong section width, may need to adjust picture sizes to float) */
 	margin-top: 40px;
 	margin-bottom: 40px;
 	/*height: 700px; add now that pictures are corrected?*/
@@ -183,6 +183,7 @@ p{
 	padding: 20px;
 	margin-left: 50px;
 	margin-top: 40px;
+	display: inline;
 
 }
 
