@@ -6,7 +6,7 @@ header{
 	background-color: #ffffff;
 	border-width: 2px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	width: 960px;
+	width: 100%;
 
 }
 
@@ -17,7 +17,7 @@ body {
 	margin-left: 0%;
 	padding: 0px;
 	background-image: url("http://images.fineartamerica.com/images-medium-large/grey-matters-pamela-canzano.jpg");
-	width: 960px;
+	width: 100%;
 }
 
 hr{
@@ -144,7 +144,9 @@ p{
     /*add img padding or margin?*/
     position: relative;
     display: inline;
-	padding: 15px;  
+	padding: 15px; 
+	margin: 15px;
+	float:left; 
 }
 .banner {
 	/*add img to class? try banner p first*/
@@ -240,6 +242,6 @@ html, body {
 	padding: 20px;
 	height: 20px;
 	font-size: 12px;
-	width: 960px;
+	width: 100%;
 
 } 
