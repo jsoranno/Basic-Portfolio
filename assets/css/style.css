@@ -104,7 +104,7 @@ p{
 	font-color: #77777;
 	background-color: #ffffff;
 	border-color: #cccccc;
-	width: 450px;
+	width: 100%;
 	line-height: 200%;
 }
 
@@ -116,11 +116,10 @@ p{
 	float: left;
 	padding: 20px;
 	margin-left: 10%;
-	width: 400px;
+	width: 650px; /* changed from 270 (wrong section width, may need to adjust picture sizes to float) */
 	margin-top: 40px;
 	margin-bottom: 40px;
-
-	/*height: 700px; add once images are included?*/
+	/*height: 700px; add now that pictures are corrected?*/
 
 }
 
@@ -142,24 +141,26 @@ p{
 
 .items {
 	/*how to make images float next to, not in vertical line and banners from icon sidebar*/
-    width: 350px;
-    height: auto;
-    margin: 3px;
+    /*add img padding or margin?*/
     position: relative;
-	padding: 10px;    
+    display: inline;
+	padding: 15px;  
 }
 .banner {
 	/*add img to class? try banner p first*/
 	
+	display: inline;
 	position: absolute;
-    bottom:0;
-    width: 350px;
+    bottom:15px;
+    left:15px;
+    width: 100px;
     color: #ffffff;
 	background-color: #4aaaa5;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
-.banner p {
+/*.banner p {
 	position: absolute;
     left: 0;
     bottom:0;
@@ -170,7 +171,7 @@ p{
 	background-color: #4aaaa5;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-}
+}*/
 
 /* Better to create a class instead of different ids?*/
 .sidebar {
