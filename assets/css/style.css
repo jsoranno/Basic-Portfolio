@@ -50,15 +50,12 @@ ul {
     height: 60px;
     width: 100%;
     overflow: hidden;
-
-
 }
 
 li {
     float: left;
     border-left: 1px solid #cccccc;
     text-decoration: none;
-
 }
 
 li a {
@@ -94,7 +91,7 @@ form {
 #name {
 	float: left;
 	display: inline;
-	color: white;
+	color: #ffffff;
 	background-color: #4aaaa5;
     text-align: center;
     padding:20px;
@@ -125,8 +122,6 @@ p{
 	border-color: #cccccc;
 	width: 450px;
 	line-height: 200%;
-
-
 }
 
 .Section{
@@ -140,7 +135,7 @@ p{
 	width: 450px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	/*height: 700px; add once images are included*/
+	/*height: 700px; add once images are included?*/
 
 }
 
@@ -158,6 +153,35 @@ p{
 	height:200px;
 	align:left;
 	margin: 20px;
+}
+
+.gallery {
+	/*how to make images float next to, not in vertical line and banners from icon sidebar*/
+    width: 120px;
+    height: 120px;
+    height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;    
+}
+.banner {
+	/*add img to class? try banner p first*/
+	position: relative;
+	width: 120px
+	float: left;
+	padding: 10px;
+}
+.banner p {
+	position: absolute;
+    left: 0;
+    bottom:0;
+    padding: 3px;
+    border: 1px solid #ffffff;
+    width: 100%;
+    color: #ffffff;
+	background-color: #4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* Better to create a class instead of different ids?*/
@@ -197,10 +221,6 @@ p{
 	float: left;
 	padding: 20px;
 }
-
-
-
-
 /* sticky footer */
 * {
 	margin: 0;
@@ -209,24 +229,12 @@ html, body {
 	height: 100%;
 }
 
-.gallery {
-	/*how to make images float next to, not in vertical line and banners from icon sidebar*/
-    width: 120px;
-    height: 120px;
-    height: auto;
-    float: left;
-    margin: 3px;
-    padding: 3px;
-    display: inline-block;
-}
-
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;
 	background-image: url("http://images.fineartamerica.com/images-medium-large/grey-matters-pamela-canzano.jpg");
-
 
 }
 .push{
